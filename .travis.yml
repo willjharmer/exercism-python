@@ -16,7 +16,7 @@ install:
   - conda info -a
 
   - conda env create -q QUIET --file environment.yml
-  - source activate test-environment
+  - source activate exercism
 
 script:
   - nosetests --with-watch
