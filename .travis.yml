@@ -19,4 +19,4 @@ install:
   - source activate exercism
 
 script:
-  - nosetests --with-watch
+  - nosetests */*_test.py 
