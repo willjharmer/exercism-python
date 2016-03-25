@@ -2,7 +2,7 @@
 
 import unittest
 
-from pangram import is_pangram
+from pangram.pangram import is_pangram
 
 
 class PangramTests(unittest.TestCase):

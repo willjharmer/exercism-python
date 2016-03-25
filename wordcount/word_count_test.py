@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import unittest
 
-from wordcount import word_count, _prepare_valid_word_lst
+from wordcount.wordcount import word_count, _prepare_valid_word_lst
 
 
 # to be backwards compatible with the old Python 2.X
