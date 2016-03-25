@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 import unittest
 
-import hello_world
+from helloworld import hello_world
 
 
 class HelloWorldTests(unittest.TestCase):
